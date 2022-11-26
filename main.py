@@ -6,6 +6,8 @@ BACKGROUND_COLOR = "#B1DDC6"
 current_card = {}
 to_learn = {}
 
+
+#------------------Game Data---------------------------#
 try:
     data = pandas.read_csv("data/words_to_learn.csv")
 except FileNotFoundError:
